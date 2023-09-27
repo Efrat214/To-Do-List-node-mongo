@@ -5,7 +5,7 @@ const UsersRouter = require('./routes/user.router')
 const todoModel = require('./routes/todo.router')
 
 const database = "to-do-list";
-const url = `mongodb+srv://efrat:mongo@cluster0.mskozsj.mongodb.net/${database}?retryWrites=true&w=majority`;
+const url = `...`;
 
 (async function connectDB() {
     try {
